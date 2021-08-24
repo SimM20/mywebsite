@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenido a la web</h1>
+    <p class="lead">Esta es una web de prueba usando Python 3.9</p>
+    <hr class="my-4">
+    <p>Hola Mundo, esta es mi primera pagina web.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('about') }}" role="button">About</a>
+</div>
+{% endblock %}
